@@ -1,0 +1,31 @@
+---
+title: "Section 1A Theorems (1.3 - 1.14)"
+author: "Mason Robinson"
+date: "2026-04-03"
+output: pdf_document
+---
+
+## Section 1A
+
+### Theorem 1.3 Properties of Complex Arithmetic
+
+**Commutativity**
+$\alpha + \beta = \beta + \alpha$ and $\alpha \beta = \beta \alpha$ for all $\alpha, \beta \in \mathbb{C}$.
+
+**Associativity**
+$(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ and $(\alpha \beta)\lambda = \alpha(\beta \lambda)$ for all $\alpha, \beta, \lambda \in \mathbb{C}$.
+
+**Identites**
+$\lambda + 0 = \lambda$ and $1 \lambda = \lambda$.
+
+**Additive Inverse**
+For every $\alpha \in \mathbb{C},$ there exists a unique $\beta \in \mathbb{C}$ such that $\alpha + \beta = 0$.
+
+**Multiplicative Inverse**
+For every $\alpha \in \mathbb{C}$, with $\alpha \not= 0,$ there exists a unique $\beta \in \mathbb{C}$ such that $\alpha \beta = 1$.
+
+**Distributive Property**
+$\lambda (\alpha + \beta) = \lambda \alpha + \lambda \beta$ for all $\lambda, \alpha, \beta \in \mathbb{C}$
+
+### Theorem 1.14: Commutativity of Addition in $\mathbb{F}^n$
+If $x, y \in \mathbb{F}^n,$ then $x + y = y + x$.
