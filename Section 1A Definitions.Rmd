@@ -1,0 +1,79 @@
+---
+title: "Section 1A Definitions (1.1 - 1.18)"
+author: "Mason Robinson"
+date: "2026-04-03"
+output: pdf_document
+---
+
+# Chapter 1
+
+## Section 1A
+
+### 1.1 Complex Numbers
+
+A *complex number* is an ordered pair $(a, b)$ where $a, b \in \mathbb{R}$, but we will write as $a + bi$.
+The set of all complex numbers is denoted by $\mathbb{C}$:
+
+$\mathbb{C} = {a + bi : a, b \in \mathbb{R}}$
+
+*Addition* and *multiplication* on $\mathbb{C}$ are defined by
+
+$(a + bi) + (c + di) = (a + c) + (b + d)i$
+$(a + bi)(c + di) = (ac - bd) + (ad + bc)i$
+
+here, $a, b, c, d \in \mathbb{R}$.
+
+### 1.5 $-\alpha$ subtraction, $1/\alpha$ division
+Suppose $\alpha, \beta \in \mathbb{C}$.
+Let $-\alpha$ denote the additive inverse of $\alpha$. Thus, $-\alpha$ is the unique complex number such that $\alpha + (-\alpha) = 0$.
+
+*Subtraction* on $\mathbb{C}$ is defined by
+
+$\beta - \alpha = \beta + (-\alpha)$
+
+For $\alpha \not = 0$, let $\frac 1 \alpha$ and $1 / \alpha$ denote the multiplicative inverse of $\alpha$. Thus, $\frac 1 \alpha$ is the unique complex number such that
+
+$\alpha(\frac 1 \alpha) = 1$.
+
+For $\alpha \not = 0$, division by $\alpha$ is defined by $\frac \beta \alpha = \beta (\frac 1 \alpha)$. 
+
+### 1.6 Notation: $\mathbb{F}$
+$\mathbb{F}$ stands for either $\mathbb{R}$ or $\mathbb{C}$, and is called a *field*.
+Elements of $\mathbb{F}$ are called *scalars*.
+
+### 1.8 Lists, Length
+Suppose $n$ is a nonnegative integer. A *list* of length n is an ordered collection of $n$ elements (which might be numbers, other lists, or more abstract objects).
+
+Two lists are *equal* if and only if they have the same length and the same elements in the same order.
+
+### 1.11 $\mathbb{F}^n$ Coordinate 
+$\mathbb{F}^n$ is the set of all lists of length $n$ of elements of $\mathbb{F}$:
+
+$\mathbb{F}^n =$ {$(x_1, x_2, ..., x_n) : x_k \in \mathbb{F}$ for $k = 1, 2, ..., k$}
+
+For $(x_1, x_2, ..., x_k) \in \mathbb{F}^n$ and $k \in$ {$1, 2, ..., n$}, we can say that $x_k$ is the $k^{th}$ *coordinate* of $(x_1, x_2, ..., x_n)$. 
+
+### 1.13 Addition in $\mathbb{F}^n$ 
+*Addition* in $\mathbb{F}^n$ is defined by adding corresponding coordinates:
+
+$(x_1, x_2, ..., x_n) + (y_1, y_2, ..., y_n) = (x_1 + y_1, x_2 + y_2, ..., x_n + y_n)$.
+
+### 1.15 Notation: 0
+Let 0 denote the list of length $n$ whose coordinates are all 0:
+
+$0 = (0, 0, ..., 0)$
+
+### 1.17 Additive Inverse in $\mathbb{F}^n$, $-x$
+For $x \in \mathbb{F}^n,$ the additive inverse of $x$ denoted by $-x,$ is the vector $-x \in \mathbb{F}^n$ such that
+
+$x + (-x) = 0$
+
+Thus if $x = (x_1, x_2, ..., x_n)$, then $-x = (-x_1, -x_2, ..., -x_n)$.
+
+### 1.18 Scalar Multiplication in $\mathbb{F}^n$ 
+The *product* of a number $\lambda$ and a vector in $\mathbb{F}^n$ is computed by multiplying each coordinate of the vector by $\lambda$:
+
+$\lambda(x_1, x_2, ..., x_n) = (\lambda x_1, x_2, ..., x_n)$
+
+Here, $\lambda \in \mathbb{F}$ and $(x_1, x_2, ..., x_n) \in \mathbb{F}$
+
